@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloToast</string>
+    <string name="button_count">Incrémenter le compteur</string>
+    <string name="button_toast">Afficher un message</string>
+    <string name="toast_message">Bonjour !</string>
+</resources>
