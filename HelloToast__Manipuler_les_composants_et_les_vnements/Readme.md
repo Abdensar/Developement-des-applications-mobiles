@@ -2,16 +2,6 @@
 
 ## 📱 App Screenshots
 ![Demo](images/Demo.png)
-
-### Initial Screen
-![Initial state with counter at 0]
-
-### After Toast Button Click
-![Toast message appearing]
-
-### After Count Button Click (multiple times)
-![Counter showing 5 or any number]
-
 ## 🛠 Technologies Used
 - **Language:** Java
 - **Framework:** Android SDK

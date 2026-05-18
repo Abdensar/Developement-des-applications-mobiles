@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculateur d\'Impôt</string>
+    <string name="button_calculer">Calculer</string>
+    <string name="checkbox_piscine">Piscine</string>
+    <string name="erreur_saisie">Veuillez entrer des valeurs valides</string>
+    <string name="hint_pieces">Nombre de pièces</string>
+    <string name="hint_surface">Surface (m²)</string>
+</resources>

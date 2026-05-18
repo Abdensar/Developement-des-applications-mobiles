@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+id button_calcul
+id checkbox_piscine
+id input_pieces
+id input_surface
+id result
+layout activity_main
+string app_name
+string button_calculer
+string checkbox_piscine
+string erreur_saisie
+string hint_pieces
+string hint_surface

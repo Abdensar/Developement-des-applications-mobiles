@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout principal : LinearLayout vertical avec padding et centrage -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <!-- Champ de saisie pour la surface en m² -->
+    <EditText
+        android:id="@+id/input_surface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_surface"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Champ de saisie pour le nombre de pièces -->
+    <EditText
+        android:id="@+id/input_pieces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_pieces"
+        android:inputType="number"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Case à cocher pour la piscine -->
+    <CheckBox
+        android:id="@+id/checkbox_piscine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_piscine"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Bouton pour lancer le calcul -->
+    <Button
+        android:id="@+id/button_calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_calculer" />
+
+    <!-- TextView pour afficher le résultat du calcul -->
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:text="" />
+
+</LinearLayout>

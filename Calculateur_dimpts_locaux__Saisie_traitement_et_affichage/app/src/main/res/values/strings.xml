@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nom de l'application -->
+    <string name="app_name">Calculateur d\'Impôt</string>
+
+    <!-- Textes des champs de saisie -->
+    <string name="hint_surface">Surface (m²)</string>
+    <string name="hint_pieces">Nombre de pièces</string>
+
+    <!-- Texte de la case à cocher -->
+    <string name="checkbox_piscine">Piscine</string>
+
+    <!-- Texte du bouton -->
+    <string name="button_calculer">Calculer</string>
+
+    <!-- Message d'erreur -->
+    <string name="erreur_saisie">Veuillez entrer des valeurs valides</string>
+</resources>
