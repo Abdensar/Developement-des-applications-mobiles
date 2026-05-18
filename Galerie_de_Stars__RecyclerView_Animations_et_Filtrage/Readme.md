@@ -1,6 +1,7 @@
 # StarsGallery - Android Lab Report
 
 ## 📱 App Screenshots
+![Demo0](images/Demo0.png)
 ![Demo1](images/Demo1.png)
 ![Demo2](images/Demo2.png)
 ![Demo3](images/Demo3.png)
