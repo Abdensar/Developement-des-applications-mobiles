@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="villes">
+        <item>Rabat</item>
+        <item>Casablanca</item>
+        <item>Marrakech</item>
+        <item>Fes</item>
+        <item>Tanger</item>
+    </string-array>
+    <string name="app_name">ProjetWS</string>
+    <style name="input">
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+    <style name="text">
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

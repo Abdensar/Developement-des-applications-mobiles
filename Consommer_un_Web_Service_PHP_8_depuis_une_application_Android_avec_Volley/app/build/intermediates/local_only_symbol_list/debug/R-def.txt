@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+array villes
+id add
+id f
+id m
+id nom
+id prenom
+id ville
+layout activity_add_etudiant
+string app_name
+style input
+style text
+xml network_security_config
