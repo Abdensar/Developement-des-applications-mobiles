@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ConverterTabsJava</string>
+    <string name="c_to_f">C → F</string>
+    <string name="calculer">Calculer</string>
+    <string name="conversion_distance">Conversion Km ↔ Miles</string>
+    <string name="conversion_temperature">Conversion Température</string>
+    <string name="dialog_message_quitter">Voulez-vous vraiment quitter l\'application?</string>
+    <string name="dialog_non">Non</string>
+    <string name="dialog_oui">Oui</string>
+    <string name="dialog_titre_quitter">Quitter</string>
+    <string name="erreur_valeur_vide">Veuillez entrer une valeur</string>
+    <string name="f_to_c">F → C</string>
+    <string name="hint_entrer_valeur">Entrer la valeur</string>
+    <string name="km_to_miles">Km → Miles</string>
+    <string name="miles_to_km">Miles → Km</string>
+    <string name="resultat_default">Résultat : -</string>
+    <string name="tab_distance">Distance</string>
+    <string name="tab_temperature">Température</string>
+</resources>

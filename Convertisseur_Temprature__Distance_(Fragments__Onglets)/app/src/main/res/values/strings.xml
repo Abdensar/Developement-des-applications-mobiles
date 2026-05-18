@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fichier de chaînes de caractères pour l'application ConverterTabsJava -->
+<resources>
+    <!-- Nom de l'application -->
+    <string name="app_name">ConverterTabsJava</string>
+
+    <!-- Titres des onglets -->
+    <string name="tab_temperature">Température</string>
+    <string name="tab_distance">Distance</string>
+
+    <!-- Titres des fragments -->
+    <string name="conversion_temperature">Conversion Température</string>
+    <string name="conversion_distance">Conversion Km ↔ Miles</string>
+
+    <!-- Options de conversion température -->
+    <string name="c_to_f">C → F</string>
+    <string name="f_to_c">F → C</string>
+
+    <!-- Options de conversion distance -->
+    <string name="km_to_miles">Km → Miles</string>
+    <string name="miles_to_km">Miles → Km</string>
+
+    <!-- Textes communs -->
+    <string name="hint_entrer_valeur">Entrer la valeur</string>
+    <string name="calculer">Calculer</string>
+    <string name="resultat_default">Résultat : -</string>
+
+    <!-- Messages -->
+    <string name="erreur_valeur_vide">Veuillez entrer une valeur</string>
+
+    <!-- Dialogue de sortie -->
+    <string name="dialog_titre_quitter">Quitter</string>
+    <string name="dialog_message_quitter">Voulez-vous vraiment quitter l\'application?</string>
+    <string name="dialog_oui">Oui</string>
+    <string name="dialog_non">Non</string>
+</resources>

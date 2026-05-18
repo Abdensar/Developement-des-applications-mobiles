@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+id btnConvertDist
+id btnConvertTemp
+id etDistInput
+id etTempInput
+id rbCtoF
+id rbFtoC
+id rbKmToMiles
+id rbMilesToKm
+id rgDist
+id rgTemp
+id tabLayout
+id tvDistResult
+id tvTempResult
+id viewPager
+layout activity_main
+layout fragment_distance
+layout fragment_temp
+string app_name
+string c_to_f
+string calculer
+string conversion_distance
+string conversion_temperature
+string dialog_message_quitter
+string dialog_non
+string dialog_oui
+string dialog_titre_quitter
+string erreur_valeur_vide
+string f_to_c
+string hint_entrer_valeur
+string km_to_miles
+string miles_to_km
+string resultat_default
+string tab_distance
+string tab_temperature

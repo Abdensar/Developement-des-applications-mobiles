@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout du fragment de conversion de distance -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Titre du fragment -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conversion_distance"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Groupe de boutons radio pour choisir le sens de conversion -->
+    <RadioGroup
+        android:id="@+id/rgDist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <!-- Option Kilomètres vers Miles (sélectionnée par défaut) -->
+        <RadioButton
+            android:id="@+id/rbKmToMiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/km_to_miles"
+            android:checked="true" />
+
+        <!-- Option Miles vers Kilomètres -->
+        <RadioButton
+            android:id="@+id/rbMilesToKm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/miles_to_km"
+            android:layout_marginStart="16dp" />
+    </RadioGroup>
+
+    <!-- Champ de saisie pour la valeur à convertir -->
+    <EditText
+        android:id="@+id/etDistInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_entrer_valeur"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp" />
+
+    <!-- Bouton pour lancer la conversion -->
+    <Button
+        android:id="@+id/btnConvertDist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculer"
+        android:layout_marginTop="8dp" />
+
+    <!-- Affichage du résultat de la conversion -->
+    <TextView
+        android:id="@+id/tvDistResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultat_default"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

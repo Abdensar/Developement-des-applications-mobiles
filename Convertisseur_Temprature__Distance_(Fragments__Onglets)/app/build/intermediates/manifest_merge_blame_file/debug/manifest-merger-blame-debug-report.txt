@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- Manifeste de l'application ConverterTabsJava -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.example.converttabsjava"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+10        android:targetSdkVersion="34" />
+11
+12    <permission
+12-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+13        android:name="com.example.converttabsjava.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+13-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+14        android:protectionLevel="signature" />
+14-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+15
+16    <uses-permission android:name="com.example.converttabsjava.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+16-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+16-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+17
+18    <application
+18-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:5:5-20:19
+19        android:allowBackup="true"
+19-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:label="@string/app_name"
+23-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:7:9-41
+24        android:supportsRtl="true"
+24-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:8:9-35
+25        android:theme="@style/Theme.Material3.Light.NoActionBar" >
+25-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:9:9-65
+26
+27        <!-- Activité principale lancée au démarrage -->
+28        <activity
+28-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:12:9-19:20
+29            android:name="com.example.converttabsjava.MainActivity"
+29-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:13:13-41
+30            android:exported="true" >
+30-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:14:13-36
+31            <intent-filter>
+31-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:15:13-18:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:16:17-69
+32-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:16:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:17:17-77
+34-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Convertisseur_Temprature__Distance_(Fragments__Onglets)\app\src\main\AndroidManifest.xml:17:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+39            android:name="androidx.startup.InitializationProvider"
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+40            android:authorities="com.example.converttabsjava.androidx-startup"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+41            android:exported="false" >
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+42            <meta-data
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+44                android:value="androidx.startup" />
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+45            <meta-data
+45-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\ba5053356ffa33d8297422aafd261bf5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\ba5053356ffa33d8297422aafd261bf5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+47                android:value="androidx.startup" />
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\ba5053356ffa33d8297422aafd261bf5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+48        </provider>
+49    </application>
+50
+51</manifest>
