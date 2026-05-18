@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout d'un élément de la liste des stars -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Image circulaire de la star -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgStar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/star" />
+
+    <!-- Nom de la star -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imgStar"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp" />
+
+    <!-- Barre de notation de la star (lecture seule) -->
+    <RatingBar
+        android:id="@+id/rating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName"
+        android:layout_toEndOf="@id/imgStar"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:numStars="5"
+        android:isIndicator="true"
+        android:stepSize="0.1" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-merged_res-34:\\drawable_star.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-main-36:\\drawable\\star.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-merged_res-34:\\layout_star_edit_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-main-36:\\layout\\star_edit_item.xml"
+    },
+    {
+        "merged": "com.example.starsgallery.app-merged_res-34:/drawable_scarlett_johansson.jpg.flat",
+        "source": "com.example.starsgallery.app-main-36:/drawable/scarlett_johansson.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-merged_res-34:\\layout_activity_list.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-main-36:\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "com.example.starsgallery.app-merged_res-34:/drawable_tom_cruise.jpg.flat",
+        "source": "com.example.starsgallery.app-main-36:/drawable/tom_cruise.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-merged_res-34:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-main-36:\\menu\\menu.xml"
+    },
+    {
+        "merged": "com.example.starsgallery.app-merged_res-34:/drawable_emma_watson.jpg.flat",
+        "source": "com.example.starsgallery.app-main-36:/drawable/emma_watson.jpg"
+    },
+    {
+        "merged": "com.example.starsgallery.app-merged_res-34:/drawable_leonardo_dicaprio.jpg.flat",
+        "source": "com.example.starsgallery.app-main-36:/drawable/leonardo_dicaprio.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-merged_res-34:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-main-36:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-merged_res-34:\\layout_star_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.2\\com.example.starsgallery.app-main-36:\\layout\\star_item.xml"
+    }
+]

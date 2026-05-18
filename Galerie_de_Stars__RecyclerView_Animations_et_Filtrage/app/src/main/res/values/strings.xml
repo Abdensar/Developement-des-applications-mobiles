@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fichier de chaînes de caractères pour StarsGallery -->
+<resources>
+    <string name="app_name">StarsGallery</string>
+    <string name="search">Search</string>
+    <string name="partager">Partager</string>
+    <string name="notez">Notez :</string>
+    <string name="donner_note">Donner une note entre 1 et 5 :</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
+</resources>

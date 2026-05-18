@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+drawable emma_watson
+drawable leonardo_dicaprio
+drawable scarlett_johansson
+drawable star
+drawable tom_cruise
+id app_bar_search
+id app_bar_share
+id idss
+id img
+id imgStar
+id logo
+id rating
+id recycle_view
+id tvName
+layout activity_list
+layout activity_splash
+layout star_edit_item
+layout star_item
+menu menu
+string annuler
+string app_name
+string donner_note
+string notez
+string partager
+string search
+string valider

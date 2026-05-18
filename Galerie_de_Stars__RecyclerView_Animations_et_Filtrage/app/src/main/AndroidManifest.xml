@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manifeste de l'application StarsGallery -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permission d'accès à Internet pour charger les images -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Activité Splash : écran de démarrage animé (launcher) -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activité Liste : affichage de la galerie de stars -->
+        <activity android:name=".ui.ListActivity" />
+    </application>
+
+</manifest>

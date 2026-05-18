@@ -1,0 +1,134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- Manifeste de l'application StarsGallery -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.example.starsgallery"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+10        android:targetSdkVersion="34" />
+11
+12    <!-- Permission d'accès à Internet pour charger les images -->
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:6:5-67
+13-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:6:22-64
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.starsgallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.starsgallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:8:5-26:19
+22        android:allowBackup="true"
+22-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:9:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:label="@string/app_name"
+26-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:10:9-41
+27        android:supportsRtl="true"
+27-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:11:9-35
+28        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+28-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:12:9-67
+29
+30        <!-- Activité Splash : écran de démarrage animé (launcher) -->
+31        <activity
+31-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:15:9-22:20
+32            android:name="com.example.starsgallery.ui.SplashActivity"
+32-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:16:13-46
+33            android:exported="true" >
+33-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:17:13-36
+34            <intent-filter>
+34-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:18:13-21:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:19:17-69
+35-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:19:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:20:17-77
+37-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:20:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <!-- Activité Liste : affichage de la galerie de stars -->
+42        <activity android:name="com.example.starsgallery.ui.ListActivity" />
+42-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:25:9-53
+42-->C:\Users\HP\Desktop\Em2\9_Sec_mobile_App\Developement-des-applications-mobiles\Galerie_de_Stars__RecyclerView_Animations_et_Filtrage\app\src\main\AndroidManifest.xml:25:19-50
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46            android:authorities="com.example.starsgallery.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\HP\.gradle\caches\transforms-3\5e4a8e0fcb3481a0b16e243c758545e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\HP\.gradle\caches\transforms-3\5e4a8e0fcb3481a0b16e243c758545e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\HP\.gradle\caches\transforms-3\5e4a8e0fcb3481a0b16e243c758545e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+55-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+56                android:value="androidx.startup" />
+56-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+57        </provider>
+58
+59        <receiver
+59-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+60            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+60-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+61            android:directBootAware="false"
+61-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+62            android:enabled="true"
+62-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+63            android:exported="true"
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+64            android:permission="android.permission.DUMP" >
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+65            <intent-filter>
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+66                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+67            </intent-filter>
+68            <intent-filter>
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+69                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+70            </intent-filter>
+71            <intent-filter>
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+72                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+73            </intent-filter>
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+75                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+76            </intent-filter>
+77        </receiver>
+78    </application>
+79
+80</manifest>

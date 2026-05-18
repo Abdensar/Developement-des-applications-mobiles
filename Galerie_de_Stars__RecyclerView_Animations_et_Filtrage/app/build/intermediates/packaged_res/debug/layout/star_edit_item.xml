@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout de la popup d'édition de notation d'une star -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Affichage de l'identifiant de la star -->
+    <TextView
+        android:id="@+id/idss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Image circulaire de la star dans la popup -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <!-- Barre de notation modifiable -->
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:numStars="5"
+        android:stepSize="0.1" />
+
+</LinearLayout>

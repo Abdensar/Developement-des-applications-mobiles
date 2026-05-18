@@ -1,0 +1,4 @@
+// Fichier de configuration racine du projet StarsGallery
+plugins {
+    id 'com.android.application' version '8.1.0' apply false
+}
