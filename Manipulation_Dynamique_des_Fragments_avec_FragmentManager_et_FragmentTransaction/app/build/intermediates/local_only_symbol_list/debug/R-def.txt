@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+id btnFragment1
+id btnFragment2
+id btnHello
+id fragment_container
+id seekBar
+id textOne
+id tvValue
+layout activity_main
+layout fragment_one
+layout fragment_two
+string app_name
+string bonjour_message
+string dire_bonjour
+string fragment1
+string fragment2
+string fragment_one_title
+string valeur_default

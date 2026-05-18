@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.fragmentslab.app-merged_res-31:/layout_fragment_one.xml.flat",
+        "source": "com.example.fragmentslab.app-main-33:/layout/fragment_one.xml"
+    },
+    {
+        "merged": "com.example.fragmentslab.app-merged_res-31:/layout_fragment_two.xml.flat",
+        "source": "com.example.fragmentslab.app-main-33:/layout/fragment_two.xml"
+    },
+    {
+        "merged": "com.example.fragmentslab.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.fragmentslab.app-main-33:/layout/activity_main.xml"
+    }
+]

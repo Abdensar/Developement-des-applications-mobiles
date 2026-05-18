@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FragmentsLab</string>
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="fragment_one_title">Fragment One</string>
+    <string name="dire_bonjour">Dire bonjour</string>
+    <string name="bonjour_message">Bonjour depuis Fragment 1!</string>
+    <string name="valeur_default">Valeur : 0</string>
+</resources>

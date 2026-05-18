@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout principal : conteneur vertical avec boutons de navigation et zone de fragments -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Barre de navigation horizontale contenant les deux boutons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Bouton pour afficher Fragment 1 (poids égal) -->
+        <Button
+            android:id="@+id/btnFragment1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fragment1" />
+
+        <!-- Bouton pour afficher Fragment 2 (poids égal) -->
+        <Button
+            android:id="@+id/btnFragment2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fragment2" />
+    </LinearLayout>
+
+    <!-- Conteneur pour l'affichage dynamique des fragments -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
